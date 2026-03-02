@@ -2,7 +2,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 
-df = pd.read_csv("/Users/egsuser/Desktop/madhu/next_web/ai-tasks/spotify.csv")
+df = pd.read_csv("Data_analytics_learning\pandas_learning\spotify_data_analysis\spotify.csv")
 music_genres = df['playlist_genre'].unique()
 ## cloumns list
 # col_list = df.columns
@@ -43,7 +43,7 @@ music_genres = df['playlist_genre'].unique()
 # print("count of track of artist",c)
 # print("Bad Bunny tracks ",len(track_artist))
 
-## What is the average `energy` level for each `playlist_genre`?
+# # What is the average `energy` level for each `playlist_genre`?
 # avg_energy = df.groupby('playlist_genre')['energy'].mean()
 # print(avg_energy)
 # avg_energy.plot()
